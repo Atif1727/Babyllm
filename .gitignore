@@ -1,0 +1,14 @@
+.triton
+data
+.lightning_studio
+out
+.vscode-server/
+__pycache__/
+.vscode
+
+# Ignore all hidden files (dotfiles)
+.*
+# But do not ignore the Git configuration files and your .gitignore itself:
+!/.gitignore
+!/.git
+!/.gitmodules
